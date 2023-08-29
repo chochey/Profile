@@ -35,12 +35,12 @@ function type() {
   } else if (letterIndex === sentences[index].length) {
     // Start deleting after a delay
     isDeleting = true;
-    setTimeout(type, 2000);
+    setTimeout(type, 1000);
   } else if (letterIndex === 0) {
     // Move to the next sentence or loop back to the beginning
     isDeleting = false;
     index = (index + 1) % sentences.length;
-    setTimeout(type, 500); // Delay before starting the next sentence
+    setTimeout(type, 100); // Delay before starting the next sentence
   }
 }
 
