@@ -299,6 +299,7 @@ input:checked + .slider:before {
   border: 2px solid #fff;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  pointer-events: none; /* Ensures the circle doesn't interfere with other elements */
+  pointer-events: none;
   z-index: 9999;
+  transition: transform 0.1s ease-out, left 0.05s ease-out, top 0.05s ease-out;
 }
