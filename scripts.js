@@ -15,7 +15,7 @@ document.getElementById("checkbox").addEventListener("change", function () {
 
 // ----------------------------------------------------------------
 
-const sentences = ["Hello, I'm Nick Shosey.", "I am a Web Developer."];
+const sentences = ["Hello, I'm Nick Shosey.", "I am a Developer."];
 let index = 0;
 let letterIndex = 0;
 let isDeleting = false;
