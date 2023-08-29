@@ -299,3 +299,50 @@ p {
   opacity: 0.7; /* Slight opacity reduction to give a highlighting effect */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.966);
 }
+
+/*  ---------------------------------------------------- */
+
+/* ... Existing styles ... */
+
+/* Responsive styles */
+@media (max-width: 760px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .top-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  nav ul {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .project-content {
+    width: 90%; /* Adjust width for smaller screens */
+    margin: 10px auto;
+  }
+
+  .skills-container,
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill-set {
+    margin: 10px 0;
+  }
+}
