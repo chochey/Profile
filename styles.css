@@ -297,11 +297,19 @@ p {
 }
 
 .skill-set:hover {
-  transform: scale(1.1); /* 10% scale up on hover */
+  transform: scale(0.98); /* 10% scale up on hover */
   opacity: 0.7; /* Slight opacity reduction to give a highlighting effect */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.966);
+  border-radius: 1em;
 }
 
+.header-right a:hover {
+  transform: scale(1.1); /* 10% scale up on hover */
+  opacity: 0.7; /* Slight opacity reduction to give a highlighting effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  border-radius: 1em;
+}
 /*  ---------------------------------------------------- */
 
 /* ... Existing styles ... */
