@@ -11,10 +11,9 @@ header {
   background-color: #f5f5f5;
   position: fixed; /* Fixes the header to the top */
   top: 0; /* Aligns the header to the top edge */
-  left: 0; /* Aligns the header to the left edge */
-  width: 100%; /* Ensures it spans the full width */
+  width: 80%; /* Ensures it spans the full width */
   z-index: 1000; /* Ensures the header stays above other elements */
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .top-row {
