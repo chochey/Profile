@@ -59,7 +59,7 @@ h2 {
 
 .header-right a {
   transition: all 0.3s ease; /* This ensures a smooth transition for all the properties */
-  padding: 5px 10px; /* Slight padding for a button-like effect */
+  padding: 0px 2px; /* Slight padding for a button-like effect */
   border-radius: 10px; /* Rounded corners */
   display: inline-block; /* Allows for padding and maintains inline appearance */
   color: #333; /* Initial color */
