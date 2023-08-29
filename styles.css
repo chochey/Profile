@@ -1,3 +1,8 @@
+* {
+  font-family: "Black Ops One", cursive;
+  font-family: "Notable", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -16,6 +21,14 @@ header {
   transform: translateX(-50%); /* Shifts it left by half of its width */
   z-index: 1000; /* Ensures the header stays above other elements */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: "Black Ops One", cursive;
+  font-family: "Notable", sans-serif;
+  font-family: "Phudu", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 .top-row {
@@ -240,12 +253,6 @@ input:checked + .slider:before {
   animation: blink 0.5s infinite;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 img {
   height: 100px;
   width: 100px;
@@ -311,8 +318,6 @@ p {
   border-radius: 1em;
 }
 /*  ---------------------------------------------------- */
-
-/* ... Existing styles ... */
 
 /* Responsive styles */
 @media (max-width: 760px) {
