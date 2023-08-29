@@ -1,16 +1,8 @@
-document.getElementById("checkbox").addEventListener("change", function () {
-  let lightSymbol = document.getElementById("light-theme-symbol");
-  let darkSymbol = document.getElementById("dark-theme-symbol");
+const cursorCircle = document.querySelector(".cursor-circle");
 
-  if (this.checked) {
-    document.body.setAttribute("data-theme", "dark");
-    lightSymbol.style.display = "none";
-    darkSymbol.style.display = "inline";
-  } else {
-    document.body.setAttribute("data-theme", "light");
-    lightSymbol.style.display = "inline";
-    darkSymbol.style.display = "none";
-  }
+document.addEventListener("mousemove", (e) => {
+  cursorCircle.style.left = e.pageX + "px";
+  cursorCircle.style.top = e.pageY + "px";
 });
 
 // ----------------------------------------------------------------

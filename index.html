@@ -6,20 +6,18 @@
     <title>Nick Shosey - Web Developer</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Notable&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Notable&family=Phudu:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
   <body>
+    <div class="site-container">
     <header>
         <div class="top-row">
             <div class="header-left">
-                <h2>
+                <h1>
                     <a href="https://nickshosey.dev/"><span id="typed-text"></span><span id="cursor">|</span></a>
-                </h2>
+                </h1>
             </div>
 
             <nav class="header-right">
@@ -33,69 +31,8 @@
        
     </header>
 
-
-    <section id="skills">
-      <h3>Skills</h3>
-      
-      <div class="skills-container">
-        <div class="skills">
-         
-            <div class="skill-set">
-                <img src="images/html-5.svg" alt="HTML5 Logo">
-                <span>HTML</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/css3.svg" alt="CSS3 Logo">
-                <span>CSS</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/js.svg" alt="JavaScript Logo">
-                <span>JavaScript</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/reactjs.svg" alt="ReactJS Logo">
-                <span>React</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/python-logo.png" alt="Pyhton Logo">
-                <span>Python</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/git.png" alt="GIT Logo">
-                <span>GIT</span>
-            </div>
-            <div class="skill-set">
-                <img src="images/github.png" alt="Github Logo">
-                <span>GitHub</span>
-            </div>
-        </div>
-    </div>
-        
-    </section>
-    
-    <div class="project">
-        <h3>Projects</h3>
-        <div class="projects-row">
-        <div class="project-content">
-            <Span class="project_title">Tarkov Team Kills</Span>
-            <img src="images/TarkovTeamKill.PNG" alt="TarkovTeamKill" >
-            <a href="https://tarkov-team-kill.vercel.app/" class="visit-button" target="_blank"> Visit</a>
-            <span>Website that allows users to track and manage team kills in Escape from Tarkov</span>
-        </div>
-       
-        <div class="project-content">
-            <Span class="project_title">Image Processor</Span>
-            <img src="images/ImageProcessor.PNG" alt="Imageprocessor">
-            <a href="https://github.com/chochey/ImageProcessor-with-Face-Detection-and-Text-Recognition" class="visit-button" target="_blank">Visit</a>
-            <span>A versatile Python script for processing images, detecting features, and performing advanced image analysis tasks.</span>
-        </div>
-        </div>
-    </div>
-
-    
-
     <section id="about">
-        <h3>About Me</h3>
+        <h3>About Me:</h3>
         <p>Hello! I'm Nick, a budding software developer with a passion for creating and innovating. As a developer, I've honed my skills in HTML, JavaScript, CSS, and Python, laying a solid foundation in both front-end and back-end development.
 
             Throughout my journey into the tech world, I've immersed myself in various projects, from crafting responsive websites to building simple yet effective Python applications. Every challenge has been a learning opportunity, and I'm constantly seeking new ways to enhance my skills and deliver optimal solutions.
@@ -105,17 +42,76 @@
             If you're on the lookout for a dedicated and enthusiastic developer eager to bring fresh ideas to the table, I'd be thrilled to connect!</p>
       </section>
 
+    <section id="skills" class="section skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills">
+                <div class="skill-set">
+                    <img src="images/html-5.svg" alt="HTML Logo">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-set">
+                    <img src="images/css3.svg" alt="CSS Logo">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-set">
+                    <img src="images/js.svg" alt="JavaScript Logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-set">
+                    <img src="images/python-logo.png" alt="Python Logo">
+                    <p>Python</p>
+                </div>
+                <div class="skill-set">
+                    <img src="images/reactjs.svg" alt="React Logo">
+                    <p>React JS</p>
+                </div>
+                <div class="skill-set">
+                    <img src="images/git.png" alt="GIT Logo">
+                    <p>GIT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="projects-row">
+            <!-- Project 1 -->
+            <div class="project">
+                <div class="project-content">
+                    <span class="project-title">Tarkov Team Kills</span>
+                    <img src="images/TarkovTeamKill.PNG" alt="TarkovTeamKill Project Image">
+                    <a href="https://tarkov-team-kill.vercel.app/" class="visit-button" target="_blank">Visit</a>
+                    
+                    <span class="project-description">Website allows users to track and manage team kills in Escape from Tarkov.</span>
+                </div>
+            </div>
+            <!-- Project 2 (for demonstration purposes, same content as Project 1) -->
+            <div class="project">
+                <div class="project-content">
+                    <span class="project-title">Image Processor</span>
+                    <img src="images/ImageProcessor.PNG" alt="Image Processor Project Image">
+                    <a href="https://github.com/chochey/ImageProcessor-with-Face-Detection-and-Text-Recognition" class="visit-button" target="_blank">Visit</a>
+                    
+                    <span class="project-description">A versatile Python script for processing images, detecting features, and performing advanced image analysis tasks.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
     <section id="contact">
       <h3>Contact</h3>
       <p>Email: nshosey@gmail.com</p>
     </section>
-
+    <div class="cursor-circle"></div>
     <div class="theme-switch-wrapper">
-        <span id="light-theme-symbol">☀️</span>
-        <span id="dark-theme-symbol" style="display: none">🌙</span>
-        <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
+        </div>
     <script src="scripts.js"></script>
+    
+
   </body>
 </html>
